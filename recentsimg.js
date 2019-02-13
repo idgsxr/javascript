@@ -73,8 +73,8 @@ document.write(towrite);
 
 document.write('</strong></li>');
 if(displayseparator==true) 
-if (i!=(numposts-1))
-document.write('<hr color="#d9f1fa" size=0.5>');
+if (i!=(numposts-0))
+document.write('<style="border-bottom:1px dotted #ddd">');
 }document.write('</ul>');
 
 }
