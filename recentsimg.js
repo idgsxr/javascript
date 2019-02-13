@@ -43,7 +43,7 @@ if (showpostsummary == true) {
 }
 
 var towrite='';var flag=0;
-document.write('<br><br><strong>');
+document.write('<strong>');
 
 if(showpostdate==true) {towrite=towrite+cdday+'-'+monthnames[parseInt(cdmonth,10)]+'-'+cdyear;flag=1;}
 
